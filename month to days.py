@@ -1,6 +1,6 @@
 while True:
     name=input("Enter name of month: ")
-    name=name.lower()
+    name=name.lower().trim()
     if(name=="january"):
         print("days=31")
     elif(name=="february"):
